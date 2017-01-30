@@ -10,14 +10,14 @@ from scorer import Scorer
 
 
 _url = 'https://api.projectoxford.ai/vision/v1.0/analyze/'
-_key = '7733a2c4fe314dd590a1c1d8d9503eee' #Here you have to paste your primary key
+_key = '' #Here you have to paste your primary key
 _maxNumRetries = 10
 
 #Note: The way to get api key:
 #Free: https://www.microsoft.com/cognitive-services/en-us/subscriptions?productId=/products/Bing.Speech.Preview
 #Paid: https://portal.azure.com/#create/Microsoft.CognitiveServices/apitype/Bing.Speech/pricingtier/S0
 #apiKey = "Your api key goes here"
-apiKey = "38cff4c6e50e41c482f612089b5ab8e0"
+apiKey = ""
 
 scorer=Scorer("Task")
 
